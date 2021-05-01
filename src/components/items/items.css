@@ -1,0 +1,32 @@
+.Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 1px 1px 6px #b966d2;
+  margin-top: 1.3rem;
+  padding: 1rem;
+}
+
+.Item p {
+  cursor: pointer;
+}
+
+.Item button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.Item button i {
+  font-size: 1.3rem;
+  padding: 0.7rem;
+}
+
+.Purple {
+  color: #7a47c0;
+}
+
+.Red {
+  color: red;
+}

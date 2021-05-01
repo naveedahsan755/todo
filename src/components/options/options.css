@@ -1,0 +1,44 @@
+.Options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.Options button {
+  text-decoration: none;
+  color: red;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+.Options select {
+  box-shadow: 3px 3px 6px #b966d2;
+  padding: 0.5em 1.5em;
+  background-color: #7a47c0;
+  color: white;
+  border: 0;
+  border-radius: 50px;
+}
+
+.Options select:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 700px) {
+  .Options {
+    display: inline;
+  }
+
+  .Options select {
+    margin: 1rem 0.3rem;
+  }
+
+  .Options button {
+    margin: 0 1rem;
+  }
+}

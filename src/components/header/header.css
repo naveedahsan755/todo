@@ -1,0 +1,16 @@
+.Header {
+  height: 10rem;
+  background: linear-gradient(to bottom, #7a47c0 0%, #b866d2 100%);
+}
+
+.Heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Heading h1 {
+  color: #fff;
+  font-size: 3.5rem;
+}
